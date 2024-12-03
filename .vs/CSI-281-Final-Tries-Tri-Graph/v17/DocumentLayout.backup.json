@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joshua.scalia\\Desktop\\CSI-281-Final-Tries-Tri-Graph\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T01:33:32.915Z",
+              "EditorCaption": ""
             }
           ]
         }
