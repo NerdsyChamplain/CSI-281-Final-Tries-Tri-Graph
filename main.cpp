@@ -56,7 +56,27 @@ int main()
 	{
 		cout << "Did not find: " << "sand" << endl;
 	}
-	
+
+
+	tree.remove("sandy");
+	if (tree.search("sandy"))
+	{
+		cout << "Didn't remove sandy" << endl;
+	}
+	else if (!tree.search("sandy"))
+	{
+		cout << "Succesfully removed sandy" << endl;
+	}
+	tree.remove("spongebob");
+	if (tree.search("squidward"))
+	{
+		cout << "Removed spongebob and still found squidward" << endl;
+	}
+	tree.remove("gary");
+	if (tree.search("larry"))
+	{
+		cout << "Removed gary and still found larry" << endl;
+	}
 
 	return 0;
 }

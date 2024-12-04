@@ -77,11 +77,45 @@ class TrieTree
 
 		void remove(string word)
 		{
-
+			removeAux(&root, word, 0);
 		}
 
-		void remove_aux(string word)
+		TrieNode* removeAux(TrieNode* cur, string word, int depth)
 		{
+			//reference to the root of the tree
+			TrieNode* tmp = &root;
+			//base case
+			if (tmp == nullptr)
+			{
+				return nullptr;
+			}
+			//if we've reached the full word set its tag to false
+			if (depth == word.length())
+			{
+				cur->isWord = false;
+			}
+			//actual main section
+			else
+			{
+				//get the next character to check and possibly remove
+				char targChar = word.at(depth);
+				//use the target character to find the next node
+				TrieNode* childTrieNode = removeAux(&(cur->children[targChar]), word, depth + 1);
+				//if the next node doesn't exist then delete the current node
+				if (childTrieNode == nullptr)
+				{
+					cur->children.erase(targChar);
+				}
+			}
+			//make sure that the node doesn't have children so we don't delete something important
+			if (cur->children.empty() != true)
+			{
+				return cur;
+			}
+			else
+			{
+				return nullptr;
+			}
 
 		}
 

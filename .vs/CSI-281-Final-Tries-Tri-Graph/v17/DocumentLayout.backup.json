@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\",
+  "WorkspaceRootPath": "C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\tries.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEB2739E-01B1-4630-B29F-2D79C324A073}|CSI-281-Final-Tries-Tri-Graph.vcxproj|solutionrelative:tries.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tries.h",
+              "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\tries.h",
+              "RelativeDocumentMoniker": "tries.h",
+              "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\tries.h",
+              "RelativeToolTip": "tries.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T02:03:37.639Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\vipen\\OneDrive\\Documents\\DA\\CSI-281-Final-Tries-Tri-Graph\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSI-281-Final-Tries-Tri-Graph\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T01:33:32.915Z",
               "EditorCaption": ""
